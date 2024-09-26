@@ -1,2 +1,4 @@
-wallpaper/*
-saved_images/*
+*
+!bashImageDownloader.sh
+!README.md
+!image.list
