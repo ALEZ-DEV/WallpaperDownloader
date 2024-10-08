@@ -27,7 +27,7 @@ if [ ! -d "$outputFolder" ]; then
 fi
 
 for i in ${!images[@]}; do
-	image_path="$outputFolder/$i.jpg"
+	image_path="$outputFolder/$i"
 
 	if ! [ -e $image_path ]; then
 		wget -O "$image_path" "${images[$i]}"
